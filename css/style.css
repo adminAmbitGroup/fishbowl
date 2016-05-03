@@ -89,23 +89,27 @@ a:active {
 }
 */
 header {
-	background-color: #FFF;
-	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.9075);
-	height: 42px;
-	padding: 10px 15px 10px 15px;
-	position: fixed;
-	width: 100%;
-	z-index: 100;
+    background-color: #FFF;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.9075);
+    height: 62px;
+    padding: 10px 15px 10px 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
 
 #header {
-	background-color: #FFF;
-	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.9075);
-	height: 42px;
-	padding: 10px 15px;
-	position: fixed;
-	width: 100%;
-	z-index: 100;
+	    background-color: #FFF;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.9075);
+    height: 62px;
+    padding: 10px 15px 10px 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
 
 #logo {
@@ -249,9 +253,10 @@ nav ul ul ul li a {
 
 #main-wrapper {
 	position: relative;
-	top: 42px;
+	/*top: 42px;*/
 	width: 100%;
 }
+
 
 .centerDiv{
 	width:1200px;
@@ -384,21 +389,18 @@ p {
 h1 {
 	font-size: 28px;
 	font-weight: bold;
-	margin: 30px 15px 15px 15px;
 	text-align:	center;
 }
 
 h2 {
 	font-size: 24px;
 	font-weight: bold;
-	margin: 15px;
 	text-align:	center;
 }
 
 h3 {
 	font-size: 20px;
 	font-style: italic;
-	margin: 15px;
 }
 
 .fonta {
@@ -464,11 +466,20 @@ h3 {
 	font-size: 36px;
 	letter-spacing: 1.2px;
 }
+#staff-wrapper{
+background-color:#FBA026;
+padding-top:3%;
+}
+
+.staff-row{
+	letter-spacing: 10px;
+}
 
 .staffrow img {
 	cursor: pointer;
 	padding: 0 15px 15px 15px;
 }
+
 
 /*
 .checkmark {
